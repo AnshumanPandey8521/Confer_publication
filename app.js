@@ -34,7 +34,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 mongoose.connect(
-  // "mongodb+srv://admin:admin@cluster0.qyck5.mongodb.net/blogrDB"
   process.env.Mongo
 );
 //console.log(process.env.Mongo)
